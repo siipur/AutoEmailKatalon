@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SpamEmail</name>
+   <name>DeleteSpamEmail</name>
    <tag>spam</tag>
    <comment></comment>
    <testCaseGuid>fb2b52b9-07e0-493b-b128-669741943b5c</testCaseGuid>

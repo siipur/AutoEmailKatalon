@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TrashEmail</name>
+   <name>DeleteTrashEmail</name>
    <tag>trash</tag>
    <comment></comment>
    <testCaseGuid>880d8c9e-896e-4e06-b9e9-3646e39cf969</testCaseGuid>
