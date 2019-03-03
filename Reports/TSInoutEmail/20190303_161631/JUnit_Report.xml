@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSInoutEmail" time="63" tests="2" failures="0" errors="0">
+   <testsuite name="TSInoutEmail" tests="2" failures="0" errors="0" time="63" timestamp="2019-03-03 16:16:40" hostname="Siipur - DESKTOP-6V6DF2T" id="Test Suites/TSInoutEmail">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Siipur\\Katalon Studio\\AutoEmailKatalon\\Reports\\TSInoutEmail\\20190303_161631"/>
+         <property name="logFiles" value="C:\\Users\\Siipur\\Katalon Studio\\AutoEmailKatalon\\Reports\\TSInoutEmail\\20190303_161631\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Siipur - DESKTOP-6V6DF2T"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.119"/>
+         <property name="hostAddress" value="192.168.1.94"/>
+         <property name="sessionId" value="0accc986cd2274a52080e2e81dce8925"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Auth/LoginEmail" classname="Test Cases/Auth/LoginEmail" status="PASSED">
+         <system-out><![CDATA[2019-03-03 16:16:41 - [TEST_CASE][PASSED] - Test Cases/Auth/LoginEmail: Test Cases/Auth/LoginEmail
+
+2019-03-03 16:16:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-03 16:16:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-03 16:16:43 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2019-03-03 16:17:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-03 16:17:00 - [TEST_STEP][PASSED] - navigateToUrl("https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"): Navigate to 'https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin' successfully
+
+2019-03-03 16:17:06 - [MESSAGE][PASSED] - Navigate to 'https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin' successfully
+
+2019-03-03 16:17:06 - [TEST_STEP][PASSED] - setText(findTestObject("Authentication/Login/input_Lanjutkan ke Gmail_ident"), "ghopurnomo@gmail.com"): Text 'ghopurnomo@gmail.com' is set on object 'Object Repository/Authentication/Login/input_Lanjutkan ke Gmail_ident'
+
+2019-03-03 16:17:11 - [MESSAGE][PASSED] - Text 'ghopurnomo@gmail.com' is set on object 'Object Repository/Authentication/Login/input_Lanjutkan ke Gmail_ident'
+
+2019-03-03 16:17:11 - [TEST_STEP][PASSED] - click(findTestObject("Authentication/Login/span_Berikutnya_pwd")): Object: 'Object Repository/Authentication/Login/span_Berikutnya_pwd' is clicked on
+
+2019-03-03 16:17:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentication/Login/span_Berikutnya_pwd' is clicked on
+
+2019-03-03 16:17:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Authentication/Login/input_Terlalu sering gagal_pas"), "nxeatHjmEp6pVQudVrsLeYFW/dX8KwtzYPGljfh6jis="): Text ****** has been set on object 'Object Repository/Authentication/Login/input_Terlalu sering gagal_pas'
+
+2019-03-03 16:17:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Authentication/Login/input_Terlalu sering gagal_pas'
+
+2019-03-03 16:17:17 - [TEST_STEP][PASSED] - click(findTestObject("Authentication/Login/span_Berikutnya")): Object: 'Object Repository/Authentication/Login/span_Berikutnya' is clicked on
+
+2019-03-03 16:17:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentication/Login/span_Berikutnya' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Auth/LogoutEmail" classname="Test Cases/Auth/LogoutEmail" status="PASSED">
+         <system-out><![CDATA[2019-03-03 16:17:19 - [TEST_CASE][PASSED] - Test Cases/Auth/LogoutEmail: Test Cases/Auth/LogoutEmail
+
+2019-03-03 16:17:20 - [TEST_STEP][PASSED] - click(findTestObject("Authentication/Logout/span_Penelusuran_gb_ya gbii")): Object: 'Object Repository/Authentication/Logout/span_Penelusuran_gb_ya gbii' is clicked on
+
+2019-03-03 16:17:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentication/Logout/span_Penelusuran_gb_ya gbii' is clicked on
+
+2019-03-03 16:17:36 - [TEST_STEP][PASSED] - click(findTestObject("Authentication/Logout/a_Keluar")): Object: 'Object Repository/Authentication/Logout/a_Keluar' is clicked on
+
+2019-03-03 16:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Authentication/Logout/a_Keluar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-03 16:16:40 - [TEST_SUITE][PASSED] - TSInoutEmail: Test Cases/Auth/LogoutEmail]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

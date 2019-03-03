@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case login ke email</description>
+   <name>LoginEmail</name>
+   <tag>auth</tag>
+   <comment></comment>
+   <testCaseGuid>e9b122e0-cf22-4cf2-b896-34c1c8c7bbb7</testCaseGuid>
+</TestCaseEntity>

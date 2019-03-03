@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-03-03T16:16:40</date>
+  <millis>1551604600812</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/TSInoutEmail</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">TSInoutEmail</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/TSInoutEmail</property>
+</record>
+<record>
+  <date>2019-03-03T16:16:40</date>
+  <millis>1551604600893</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Siipur - DESKTOP-6V6DF2T</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Siipur - DESKTOP-6V6DF2T</property>
+</record>
+<record>
+  <date>2019-03-03T16:16:40</date>
+  <millis>1551604600895</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 32bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 32bit</property>
+</record>
+<record>
+  <date>2019-03-03T16:16:40</date>
+  <millis>1551604600896</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.94</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.1.94</property>
+</record>
+<record>
+  <date>2019-03-03T16:16:40</date>
+  <millis>1551604600897</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2019-03-03T16:16:41</date>
+  <millis>1551604601538</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Auth/LoginEmail</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Auth/LoginEmail</property>
+  <property name="description">Test Case login ke email</property>
+  <property name="id">Test Cases/Auth/LoginEmail</property>
+  <property name="source">C:\\Users\\Siipur\\Katalon Studio\\AutoEmailKatalon\\Test Cases\\Auth\\LoginEmail.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-03T16:16:42</date>
+  <millis>1551604602077</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-03-03T16:16:43</date>
+  <millis>1551604603193</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:16:43</date>
+  <millis>1551604603294</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 1 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:16:59</date>
+  <millis>1551604619241</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 0accc986cd2274a52080e2e81dce8925</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">0accc986cd2274a52080e2e81dce8925</property>
+</record>
+<record>
+  <date>2019-03-03T16:17:00</date>
+  <millis>1551604620425</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 72.0.3626.119</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 72.0.3626.119</property>
+</record>
+<record>
+  <date>2019-03-03T16:17:00</date>
+  <millis>1551604620426</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-03-03T16:17:00</date>
+  <millis>1551604620441</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-03-03T16:17:00</date>
+  <millis>1551604620442</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-03-03T16:17:00</date>
+  <millis>1551604620443</millis>
+  <sequence>17</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:17:00</date>
+  <millis>1551604620445</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:17:00</date>
+  <millis>1551604620445</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://accounts.google.com/signin/v2/identifier?service=mail&amp;amp;passive=true&amp;amp;rm=false&amp;amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;amp;ss=1&amp;amp;scc=1&amp;amp;ltmpl=default&amp;amp;ltmplcache=2&amp;amp;emr=1&amp;amp;osid=1&amp;amp;flowName=GlifWebSignIn&amp;amp;flowEntry=ServiceLogin\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-03-03T16:17:06</date>
+  <millis>1551604626024</millis>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://accounts.google.com/signin/v2/identifier?service=mail&amp;amp;passive=true&amp;amp;rm=false&amp;amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;amp;ss=1&amp;amp;scc=1&amp;amp;ltmpl=default&amp;amp;ltmplcache=2&amp;amp;emr=1&amp;amp;osid=1&amp;amp;flowName=GlifWebSignIn&amp;amp;flowEntry=ServiceLogin&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:17:06</date>
+  <millis>1551604626026</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://accounts.google.com/signin/v2/identifier?service=mail&amp;amp;passive=true&amp;amp;rm=false&amp;amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;amp;ss=1&amp;amp;scc=1&amp;amp;ltmpl=default&amp;amp;ltmplcache=2&amp;amp;emr=1&amp;amp;osid=1&amp;amp;flowName=GlifWebSignIn&amp;amp;flowEntry=ServiceLogin\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:17:06</date>
+  <millis>1551604626026</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Authentication/Login/input_Lanjutkan ke Gmail_ident\&amp;quot;), \&amp;quot;ghopurnomo@gmail.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-03-03T16:17:11</date>
+  <millis>1551604631007</millis>
+  <sequence>36</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;ghopurnomo@gmail.com&amp;apos; is set on object &amp;apos;Object Repository/Authentication/Login/input_Lanjutkan ke Gmail_ident&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:17:11</date>
+  <millis>1551604631008</millis>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Authentication/Login/input_Lanjutkan ke Gmail_ident\&amp;quot;), \&amp;quot;ghopurnomo@gmail.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:17:11</date>
+  <millis>1551604631008</millis>
+  <sequence>38</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Authentication/Login/span_Berikutnya_pwd\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-03-03T16:17:13</date>
+  <millis>1551604633733</millis>
+  <sequence>45</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Authentication/Login/span_Berikutnya_pwd&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:17:13</date>
+  <millis>1551604633734</millis>
+  <sequence>46</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Authentication/Login/span_Berikutnya_pwd\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:17:13</date>
+  <millis>1551604633735</millis>
+  <sequence>47</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setEncryptedText(findTestObject(\&amp;quot;Authentication/Login/input_Terlalu sering gagal_pas\&amp;quot;), \&amp;quot;nxeatHjmEp6pVQudVrsLeYFW/dX8KwtzYPGljfh6jis=\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-03-03T16:17:17</date>
+  <millis>1551604637410</millis>
+  <sequence>56</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/Authentication/Login/input_Terlalu sering gagal_pas&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:17:17</date>
+  <millis>1551604637410</millis>
+  <sequence>57</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setEncryptedText(findTestObject(\&amp;quot;Authentication/Login/input_Terlalu sering gagal_pas\&amp;quot;), \&amp;quot;nxeatHjmEp6pVQudVrsLeYFW/dX8KwtzYPGljfh6jis=\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:17:17</date>
+  <millis>1551604637411</millis>
+  <sequence>58</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Authentication/Login/span_Berikutnya\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-03-03T16:17:19</date>
+  <millis>1551604639606</millis>
+  <sequence>65</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Authentication/Login/span_Berikutnya&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:17:19</date>
+  <millis>1551604639607</millis>
+  <sequence>66</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Authentication/Login/span_Berikutnya\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:17:19</date>
+  <millis>1551604639607</millis>
+  <sequence>67</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Auth/LoginEmail</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:17:19</date>
+  <millis>1551604639608</millis>
+  <sequence>68</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Auth/LoginEmail</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:17:19</date>
+  <millis>1551604639653</millis>
+  <sequence>69</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Auth/LogoutEmail</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Auth/LogoutEmail</property>
+  <property name="description">Test Case logout email</property>
+  <property name="id">Test Cases/Auth/LogoutEmail</property>
+  <property name="source">C:\\Users\\Siipur\\Katalon Studio\\AutoEmailKatalon\\Test Cases\\Auth\\LogoutEmail.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-03T16:17:20</date>
+  <millis>1551604640066</millis>
+  <sequence>71</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Authentication/Logout/span_Penelusuran_gb_ya gbii\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-03-03T16:17:36</date>
+  <millis>1551604656728</millis>
+  <sequence>78</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Authentication/Logout/span_Penelusuran_gb_ya gbii&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:17:36</date>
+  <millis>1551604656730</millis>
+  <sequence>79</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Authentication/Logout/span_Penelusuran_gb_ya gbii\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:17:36</date>
+  <millis>1551604656730</millis>
+  <sequence>80</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Authentication/Logout/a_Keluar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-03-03T16:17:42</date>
+  <millis>1551604662322</millis>
+  <sequence>87</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Authentication/Logout/a_Keluar&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:17:42</date>
+  <millis>1551604662322</millis>
+  <sequence>88</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Authentication/Logout/a_Keluar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:17:42</date>
+  <millis>1551604662323</millis>
+  <sequence>89</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Auth/LogoutEmail</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:17:42</date>
+  <millis>1551604662323</millis>
+  <sequence>90</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Auth/LogoutEmail</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-03-03T16:17:44</date>
+  <millis>1551604664230</millis>
+  <sequence>91</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/TSInoutEmail</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TSInoutEmail,Chrome 72.0.3626.119,,2019-03-03 10:53:07,2019-03-03 10:54:23,1m - 16.093s,PASSED
+,,,,,,
+Test Cases/Auth/LoginEmail,Chrome 72.0.3626.119,Test Case login ke email,2019-03-03 10:53:08,2019-03-03 10:53:56,48.405s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.119,,2019-03-03 10:53:08,2019-03-03 10:53:35,26.442s,PASSED
+"navigateToUrl(""https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"")",Chrome 72.0.3626.119,,2019-03-03 10:53:35,2019-03-03 10:53:42,7.839s,PASSED
+"setText(findTestObject(""Authentication/Login/input_Lanjutkan ke Gmail_ident""), ""ghopurnomo@gmail.com"")",Chrome 72.0.3626.119,,2019-03-03 10:53:42,2019-03-03 10:53:47,4.975s,PASSED
+"click(findTestObject(""Authentication/Login/span_Berikutnya_pwd""))",Chrome 72.0.3626.119,,2019-03-03 10:53:47,2019-03-03 10:53:50,2.494s,PASSED
+"setEncryptedText(findTestObject(""Authentication/Login/input_Terlalu sering gagal_pas""), ""nxeatHjmEp6pVQudVrsLeYFW/dX8KwtzYPGljfh6jis="")",Chrome 72.0.3626.119,,2019-03-03 10:53:50,2019-03-03 10:53:54,3.705s,PASSED
+"click(findTestObject(""Authentication/Login/span_Berikutnya""))",Chrome 72.0.3626.119,,2019-03-03 10:53:54,2019-03-03 10:53:56,2.328s,PASSED
+,,,,,,
+Test Cases/Auth/LogoutEmail,Chrome 72.0.3626.119,Test Case logout email,2019-03-03 10:53:56,2019-03-03 10:54:21,24.957s,PASSED
+"click(findTestObject(""Authentication/Logout/span_Penelusuran_gb_ya gbii""))",Chrome 72.0.3626.119,,2019-03-03 10:53:56,2019-03-03 10:54:09,12.766s,PASSED
+"click(findTestObject(""Authentication/Logout/a_Keluar""))",Chrome 72.0.3626.119,,2019-03-03 10:54:09,2019-03-03 10:54:21,11.844s,PASSED
